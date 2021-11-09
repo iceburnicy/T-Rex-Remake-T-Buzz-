@@ -169,7 +169,7 @@ function clouds(){
   }
 }
 function cactus(){
-  if(frameCount%60===0){
+  if(frameCount%65===0){
     spike=createSprite(620,175,20,20);
     spike.velocityX=-(5+points/100);
     var rand=Math.round(random(1,6));
@@ -199,8 +199,8 @@ function cactus(){
   }
 }
 function birds(){
-  if(frameCount%550===0){
-    bird=createSprite(500,100,50,50);
+  if(frameCount%500===0){
+    bird=createSprite(620,100,50,50);
     bird.velocityX=-(5+points/100);
     bird.addAnimation("bird",bird_img);
     bird.lifetime=130;
