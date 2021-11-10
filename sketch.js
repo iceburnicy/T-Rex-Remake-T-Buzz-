@@ -209,6 +209,7 @@ function birds(){
   }
 }
 function reset(){
+  //resets stats
   state=START;
   spikeg.destroyEach();
   cloudg.destroyEach();
