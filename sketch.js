@@ -215,7 +215,7 @@ function reset(){
   cloudg.destroyEach();
   birdg.destroyEach();
   points=0;
-  frameRate=0;
+  frameCount=0;
   
   restart.visible=false;
   fim.visible=false;
