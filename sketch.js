@@ -97,7 +97,7 @@ function draw(){
   buzz.collide(invchao);
   
   if(state===START){
-   points=points+Math.round(frameRate()/60);
+   points=points+Math.round(frameRate/60);
   
    if(points%100===0&&points>0){
      checkpoints.play();
